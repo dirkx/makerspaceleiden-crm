@@ -41,9 +41,9 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "<YOUR-PROJECT-NAME>"
+          project_name: "Makerspace - CRM - dirkx test"
           scan_mode: "baseline"
-          target_url: "https://www.example.com/"
+          target_url: "https://mijn.makerspaceleiden.nl/"
           output_format: "sarif"
       - name: Upload SOOS DAST SARIF Report
         uses: github/codeql-action/upload-sarif@v3
