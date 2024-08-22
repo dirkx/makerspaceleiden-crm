@@ -27,6 +27,10 @@ on:
   pull_request:
     branches: [ "master" ]
 
+environment: 
+      name: general
+      url: https://github.com
+      
 jobs:
   soos:
     permissions:
